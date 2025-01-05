@@ -1,0 +1,1 @@
+use DATABASE_NAME - To create data base if don't exist or switch to it if exists

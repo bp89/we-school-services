@@ -20,15 +20,10 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
-    @NotNull
     private String firstName;
-    @NotNull
     private String lastName;
-    @NotNull
     private String middleName;
-    @NotNull
     private int age;
-    @NotNull
     private Sex sex;
 
 }
